@@ -1,13 +1,11 @@
 /* CSS for Assignment 1*/
 
-/*
-	Things to fix
-	- fix text font
-	- set the entire page to 1512 x 982  mobile 414*1517 what does that mean?
-	OH 2-3 and 4-5
-
-*/
+/*import Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
+
+
+
+/*Destop Version*/
 
 .headercontainer{
 	display: flex;
@@ -85,26 +83,25 @@
 
 #logotext1{
 	font-family:"Montserrat",sans-serif;
-	font-style:normal;
-	font-weight:400;
 	font-size:16px;
-	color: rgb(2, 40, 81);
-}
-
-#logotext3{
-	font-family:"Montserrat",sans-serif;
-	font-style:normal;
-	font-weight:400;
-	font-size:16px;
-	color: rgb(2, 40, 81);
+	color: #022851;
 }
 
 #logotext2{
 	font-family:"Montserrat", san-serif;
 	font-weight:700;
 	font-size: 16px;
-	color: rgb(0, 130, 120);
+	color: #008278;
 }
+
+
+
+#logotext3{
+	font-family:"Montserrat",sans-serif;
+	font-size:16px;
+	color: #022851;
+}
+
 
 .headertitle{
 	display: flex;
@@ -122,10 +119,8 @@
 	font-size:50px;
 	font-style:italic;
 	display: flex;
-	/*flex-direction: column;*/
 	flex-direction: column;
 	flex-wrap: wrap-reverse;
-	/*align-items: flex-start;*/
 	margin-bottom: 0;
 
 }
@@ -135,8 +130,6 @@
 #title2{
 	margin-bottom: -12px;
 }
-
-
 
 
 
@@ -167,9 +160,7 @@
 .captions{
 	font-family:"Montserrat",sans-serif;
 	font-style:normal;
-	font-weight:400;
 	font-size:14px;
-	margin-right:0px ;
 	margin-bottom: 20px;
 
 
@@ -179,7 +170,6 @@
 .bodytext{
 	font-family:"Montserrat",sans-serif;
 	font-style:normal;
-	font-weight:400;
 	font-size:20px;
 	width: 100%;
 	margin-bottom: 40px;
@@ -192,8 +182,17 @@
 }
 
 
+
+
+
+/*Mobile Version*/
+
+
 @media (max-width: 1000px ) {
-/*Setting Mobile Dimension  414 x 1725 px*/
+
+
+	
+/*Setting Mobile Dimension */
 min-width: 360px;
 
 
@@ -243,8 +242,7 @@ min-width: 360px;
 
 
 .tile2{
-	width: 100%;
-	
+	width: 100%;	
 	display: flex;
 	margin-bottom: 80px;
 	max-width: 700px;
@@ -274,7 +272,6 @@ min-width: 360px;
 
 .header_element {
 	font-size: 24px;
-
 }
 
 .bodytext{
@@ -283,7 +280,6 @@ min-width: 360px;
 
 #museum_logo {
 	width: 48%;
-	height: auto;
 
 }
 
